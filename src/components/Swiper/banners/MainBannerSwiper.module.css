@@ -1,0 +1,45 @@
+.main_baner_swiper{
+    width: 100%;
+    height: 100%;
+    /* height: 550px; */
+    border-radius: 20px;
+    box-shadow: 4px 4px 30.8px 0px #0094863D;
+    margin-top: 50px;
+    cursor: pointer;
+}
+@media screen and (max-width: 990px)  {
+    .main_baner_swiper{
+        margin-bottom: 60px;
+    }
+}
+.slider_img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    margin-bottom: -10px; 
+}
+
+.promotions_swiper-button-prev{
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    top: 50%;
+    left: -75px;
+    cursor: pointer;   
+}
+
+
+.promotions_swiper-button-next{
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    right: -75px;
+    top: 50%;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 990px)  {
+    .promotions_swiper-button-prev , .promotions_swiper-button-next{
+        display: none;
+    }
+}
